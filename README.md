@@ -10,6 +10,11 @@ A fullstack web application to connect **donors and recipients**, built with **R
 * Email communication between recipients and donors
 * 📊 Database-backed storage (MySQL / H2 for quick testing)
 * ⚡ RESTful APIs with Spring Boot*
+* Recipient registration with photo & details.
+*Unique token system to prevent unauthorized deletion of requests.
+*All donation requests displayed publicly on the website.
+*Donors can click Donate, fill details (name, address, number).
+*Donor receives recipient details via email after submitting the form.
 ---
 
 
