@@ -76,16 +76,6 @@ Runs on `http://localhost:3000/`
 
 ---
 
-
----
-
-
----
-
-
-
----
-
 ## 🖼️ Project Screenshots
 
 ### 🏠 Home Page
