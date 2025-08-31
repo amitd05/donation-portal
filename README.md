@@ -3,16 +3,21 @@
 A fullstack web application to connect **donors and recipients**, built with **React.js (frontend)** and **Spring Boot (backend)** using **MySQL** for secure data storage.  
 
 ---
-## 🚀 Features
+🚀 Key Features
 
-* 🔐 Secure donor & recipient registration with photo and details 
-* 📦 Manage donations and recipient requests
-* 📊 Database-backed storage (MySQL / H2 for quick testing)
-* ⚡ RESTful APIs with Spring Boot*
-* Unique token system to prevent unauthorized deletion of requests.
-* All donation requests displayed publicly on the website.
-* Donors can click Donate, fill details (name, address, number).
-* Donor receives recipient details via email after submitting the form.
+🔐 Secure authentication – Donor & recipient registration with photo & details
+
+📦 Donation management – NGOs can create, update, and track requests
+
+📊 Database-backed storage – MySQL for production, H2 for testing
+
+⚡ RESTful APIs – Implemented using Spring Boot
+
+🛡 Unique token system – Prevents unauthorized deletion of requests
+
+🌍 Public visibility – All donation requests displayed on the website
+
+📩 Email integration – Donors receive recipient details after form submission
 ---
 
 
