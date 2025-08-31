@@ -3,6 +3,15 @@
 A fullstack web application to connect **donors and recipients**, built with **React.js (frontend)** and **Spring Boot (backend)** using **MySQL** for secure data storage.  
 
 ---
+## 🚀 Features
+
+* 🔐 Secure donor & recipient registration
+* 📦 Manage donations and recipient requests
+* Email communication between recipients and donors
+* 📊 Database-backed storage (MySQL / H2 for quick testing)
+* ⚡ RESTful APIs with Spring Boot*
+---
+
 
 ## 🚀 Tech Stack  
 - Frontend: React.js  
@@ -67,9 +76,73 @@ Runs on `http://localhost:3000/`
 
 ---
 
-## 📌 Future Enhancements  
-- Role-based access (Admin, Donor, Recipient)  
-- Email notifications for donations  
+
+---
+
+
+---
+
+
+
+---
+
+## 🖼️ Project Screenshots
+
+### 🏠 Home Page
+
+![Home Page](IMG-20240625-WA0003.jpg)
+*Landing page with navigation links and overview of the donation portal.*
+
+---
+
+### 📋 NGO Requests
+
+![NGO Requests](IMG-20240625-WA0004.jpg)
+*Displays donation/NGO requests submitted by different organizations.*
+
+---
+
+### 🔗 API Integration (Postman Testing)
+
+![API Testing](IMG-20240625-WA0010.jpg)
+*Testing backend APIs using Postman to ensure smooth donor–NGO communication.*
+
+---
+
+### ℹ️ About & Contact Form
+
+![About](IMG-20240625-WA0005.jpg)
+*Information about the portal and contact form for communication.*
+
+---
+
+### 🎯 Missions Page
+
+![Missions](IMG-20240625-WA0006.jpg)
+*Portal’s mission and vision statements to build trust with users.*
+
+---
+
+### 📝 Update NGO Details
+
+![Update NGO](IMG-20240625-WA0007.jpg)
+*NGO can update their details/requests through the portal.*
+
+---
+
+### ➕ Add New NGO Request (Postman)
+
+![Postman Add](IMG-20240625-WA0008.jpg)
+*Adding new NGO donation requests using backend API (Postman).*
+
+---
+
+
+
+
+---
+
+## 📌 Future Enhancements    
 - Cloud deployment (AWS/Heroku)  
 
 ---
