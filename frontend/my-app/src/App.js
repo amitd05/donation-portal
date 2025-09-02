@@ -276,7 +276,7 @@ function ContactSection({ ngoRequests }) {
     };
 
     const sendNotification = (data) => {
-        fetch('http://localhost:9292/api/notify-ngo', {
+        fetch(`${process.env.REACT_APP_API_URL}/api/notify-ngo`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -706,7 +706,7 @@ function App() {
     const [ngoRequests, setNGORequests] = useState([]);
 
     const addNGORequest = (request) => {
-        fetch('http://localhost:9292/api/requests', {
+        fetch(`${process.env.REACT_APP_API_URL}/api/requests`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -720,7 +720,7 @@ function App() {
         .catch(error => console.error('Error adding NGO request:', error));
     };
     const updateNGORequest = (id, updatedRequest) => {
-        fetch(`http://localhost:9292/api/requests/${id}`, {
+        fetch(`${process.env.REACT_APP_API_URL}/api/requests/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
@@ -734,7 +734,7 @@ function App() {
         .catch(error => console.error('Error updating NGO request:', error));
     };
     const deleteNGORequest = (id, token) => {
-        fetch(`http://localhost:9292/api/${id}?token=${token}`, {
+        fetch(`${process.env.REACT_APP_API_URL}/api/${id}?token=${token}`, {
             method: 'DELETE'
         })
         .then(response => {
@@ -748,7 +748,7 @@ function App() {
     };
 
     useEffect(() => {
-        fetch('http://localhost:9292/api/requests')
+        fetch(`${process.env.REACT_APP_API_URL}/api/requests`)
             .then(response => response.json())
             .then(data => setNGORequests(data))
             .catch(error => console.error('Error fetching NGO requests:', error));
