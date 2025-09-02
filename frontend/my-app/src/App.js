@@ -19,7 +19,7 @@ function Header() {
         <header>
             <div className="container">
                 <div className='head'>
-                    Stationary Donation
+                   DonorConnect
                 </div>
                 <nav className="navbar navbar-expand-lg navbar-dark">
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -63,9 +63,9 @@ function HomeSection() {
                     <div className="row">
                         <div className="col-lg-6 align-item-center">
                             <div className="home-info">
-                                <h1>Alone we can do little, together we can do so much</h1>
-                                <h2>We <span>Student Welfare CORP foundation</span> manage wastage for needy children</h2>
-                                <p>Make a difference today: donate to Children Welfare CORP and help improve lives.</p>
+                                <h1>Together we can create meaningful change</h1>
+                                <h2>We connect <span>donors</span> directly with <span>recipients</span> in need</h2>
+                                <p>Make a difference today: reach out, share, and help improve lives through direct giving.</p>
                                
                             </div>
                         </div>
@@ -182,13 +182,18 @@ function AboutSection() {
             </div>
             <div className="col-lg-8 mx-auto">
                 <p>
-                    At Student Welfare CORP Foundation, we believe that everyone deserves the chance to live a healthy and fulfilling life.
-                    Our mission is to improve the lives of needy children by providing access to basic necessities such as education. 
-                    We work tirelessly to identify the most pressing needs in our community and develop programs and initiatives to address those needs.
+                    At <span>DonorConnect</span>, we believe that kindness creates the greatest impact 
+                            when it is direct and personal. Our platform is designed to connect donors with individuals 
+                            and families in need, making it easier to provide support without unnecessary barriers.
                 </p>
                 <p>
-                    Through our fundraising efforts and the generous support of our donors, we are able to make a positive impact on the lives of thousands of people every year. 
-                    Whether it's helping a child receive an education, we are dedicated to making a difference in our community and beyond.
+              We do not collect or distribute funds. Instead, we share recipient details with donors, 
+                            enabling direct communication and transparent giving. This way, every contribution reaches 
+                            the right person and creates a meaningful difference.
+                </p>
+                 <p>
+                                Our mission is simple: to build a community where generosity flows freely, connections are 
+                            genuine, and every act of giving helps improve lives.
                 </p>
             </div>
         </div>
@@ -293,7 +298,7 @@ function ContactSection({ ngoRequests }) {
             <div className="container">
                 <div className="heading">
                     <h2>Connect With Us</h2>
-                    <p>Fill this form, our team will collect your <span>Donation</span> or <span>Wastage</span> from your place.</p>
+                    <p>Fill this form, our team will connect your <span>Donation</span> or <span>Wastage</span> with the right NGO.</p>
                 </div>
                 <div className="row">
                     <div className="col-lg-12 mt-5">
@@ -657,7 +662,9 @@ function Footer() {
                     <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="footer-widget">
                             <h4>About Us</h4>
-                            <p>At Children Welfare Corp Foundation, we believe in making a difference in the lives of people in need. Through our various programs and initiatives, we aim to provide access to basic necessities such as food, shelter, education, and healthcare to those who need it most.</p>
+                            <p><span>DonorConnect</span> is a simple platform that connects donors directly with recipients. 
+                                We don’t act as a middleman or handle funds—instead, we share recipient details with donors, 
+                                enabling direct communication and transparent giving.</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6">
@@ -673,32 +680,22 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-6">
+                   <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="footer-widget">
-                            <h4>Contact Info</h4>
-                            <ul className="footer-info">
-                                <li><i className="fa fa-phone"></i> +91 9865743215</li>
-                                <li><i className="fa fa-envelope"></i> kle@example.com</li>
-                                <li><i className="fa fa-map-marker"></i> KLE tech, Belagavi</li>
-                            </ul>
-                            <div className="social">
-                                <a href="#"><img src={facebook} alt="fb" /></a>
-                                <a href="#"><img src={twitter} alt="twitter" /></a>
-                                <a href="#"><img src={linkedin} alt="linkedin" /></a>
-                                <a href="#"><img src={insta} alt="instagram" /></a>
-                            </div>
+                            <h4>Get Involved</h4>
+                            <p>Join our mission to connect kindness with need. You can register your NGO, become a donor, or share our platform with others to spread awareness.</p>
+                            <div className="col-md-12 mt-3">  
+            <a href="#register" className="btn1 mt-4">Get Started</a>
+        </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-6">
-                        <div className="footer-widget">
-                            <h4>Newsletter</h4>
-                            <p>Subscribe to our newsletter to receive the latest news and updates.</p>
-                            <form>
-                                <input type="email" className="form-control" placeholder="Enter your email" />
-                                <button type="submit" className="btn1">Subscribe</button>
-                            </form>
-                        </div>
+                    <div className="row mt-4">
+                    <div className="col-12 text-center">
+                        <p className="mb-0">
+                            © {new Date().getFullYear()} DonorConnect. All rights reserved.
+                        </p>
                     </div>
+                </div>
                 </div>
             </div>
         </footer>
