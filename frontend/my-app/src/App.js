@@ -121,7 +121,7 @@ function DonationSection({ ngoRequests, onDelete }) {
                                 <a className="btn1 " href="#contact">Donate</a>
                                 </div>
                             </div>
-                            {selectedRequestId==request.id && (
+                            {selectedRequestId == request.id && (
                     <div className='token-container'>
                         <input type="text" value={deleteToken} onChange={handleDeleteTokenChange} placeholder="Enter delete token" />
                         <button onClick={handleDelete}>Delete Request</button>
