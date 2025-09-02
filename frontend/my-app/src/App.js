@@ -1,18 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Uniform from './school.jpg';
-import stationary from './stationary.jpg';
-import footware from './footware.jpg';
-import gadgets from './gadgets.jpg';
+
 import donation from './donation.jpg';
 import mission1 from './mission 1.jpg';
 import mission2 from './mission 2.jpg';
 import mission3 from './mission 3.jpg';
 import mission4 from './mission 4.jpg';
-import facebook from './facebook.jpg';
-import insta from './insta.jpg';
-import twitter from './twitter.jpg';
-import linkedin from './linkedin.png';
+
 
 function Header() {
     return (
