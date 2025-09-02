@@ -19,7 +19,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000") // Adjust the origin as needed
+@CrossOrigin(origins = "${app.cors.allowed-origin}") // Adjust the origin as needed
 public class NGORequestController {
     @Autowired
     private NGORequestService service;
