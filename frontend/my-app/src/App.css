@@ -700,9 +700,18 @@ footer .social a img {
     text-align: center;
     margin-bottom: 40px;
 }
-.register-section .container, .update-section .container {
+.register-section .container{
     padding: 10px 0;
     background-color: #f9f9f9;
+    max-width: 700px;
+    margin: 0 auto;
+    
+    
+
+}
+.update-section .container {
+    padding: 10px 0;
+    background-color: #f3f4f6;
     max-width: 700px;
     margin: 0 auto;
     
