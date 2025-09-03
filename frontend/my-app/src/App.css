@@ -515,6 +515,8 @@ nav .nav-link:hover {
     border-radius: 8px;
     font-size: 1rem;
     transition: background-color 0.3s ease;
+     display: block;
+    margin: 0 auto;
 }
 
 .contact-form .btn1:hover {
